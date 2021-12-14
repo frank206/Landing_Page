@@ -11,10 +11,6 @@ body{
 
 .header2{
     height:500px;
-    background-image: url(bbtbg.png);
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .header3{
