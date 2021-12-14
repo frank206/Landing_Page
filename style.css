@@ -1,0 +1,184 @@
+body{
+   margin:0;
+   padding:0;
+  
+}
+
+.header{
+    height:500px;
+    background-color:#1F2937; 
+}
+
+.header2{
+    height:500px;
+    background-image: url(bbtbg.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header3{
+    height:200px;
+    background-color:#E5E7EB;
+}
+
+.header4{
+    height:250px;
+}
+
+.icon{
+    display:flex;
+    height:100px;
+    padding:10px;
+    margin: 10px;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding:30px;
+    margin:0;
+    display:flex;
+    gap:50px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+}
+
+.container1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container3, .container4{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container5{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    flex-wrap: wrap;
+    text-align: right;
+    padding:50px;
+}
+
+.container6{
+    background:#3882F6;
+    width: 60em;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.header4bg{
+    display:flex;
+    justify-content: center;
+    padding:5em;
+}
+.text1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.text2{
+    font-size: 18px;
+    color:#E5E7EB;
+    
+}
+
+button{
+    background-color:#3772F6;
+    color:white;
+    border-radius:25px;
+    border:2px;
+    width:75px;
+}
+
+.buttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 3em;
+    
+}
+
+
+.button2{
+    color: white;
+    border: 0.15em solid white;
+    border-radius: 0.4em;
+    padding: 8px 30px;
+    text-align: center;
+    background-color: #3772F6;
+    
+   
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+.pic,.box{
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width:150px;
+  font-weight: bold;
+  
+}
+
+.img{
+  max-width:150px;
+  max-height:100%;
+  border: 5px solid #3882F6;
+  border-radius:25px;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.by{
+    font-weight: bold;
+    
+}
+
+div{
+    display:block;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    height:50px;
+    background-color:#1F2937;
+    color:white;
+}
+
+.header4heading{
+    color:white;
+    font-weight: bold;
+}
+
+.header4subtext{
+    color:rgb(247, 241, 241);
+    font-size: small;
+}
